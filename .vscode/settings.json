@@ -1,4 +1,7 @@
 {
-    "editor.fontFamily": "Menlo",
-    "editor.fontWeight": "500",
+    "editor.fontFamily": "Roboto Mono",
+    "editor.fontWeight": "400",
+    "debug.console.fontSize": 17,
+    "editor.fontSize": 16,
+    "editor.fontLigatures": false,
 }
