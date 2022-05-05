@@ -14,10 +14,14 @@ def Partition(arr, left, right):
     while i <= right:
         if arr[i] < arr[base]:
             swap(arr, i, index)
-            insex += 1
+            index += 1
         i += 1
     swap(arr, base, index - 1)
     return index - 1
 
 def swap(arr, i, j):
     arr[i], arr[j] = arr[j], arr[i]
+
+arr = [19, 30, 15, 54, 83, 21, 31, 52, 93, 74]
+print(arr)
+print(QuickSort(arr))
